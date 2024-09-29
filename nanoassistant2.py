@@ -34,7 +34,7 @@ def listen_to_speech():
 
 def generate_response(question):
     # Generate a text response using the Hugging Face pipeline with GPT-2
-    response = text_generator(question, max_length=100, num_return_sequences=1)[0]['generated_text']
+    response = text_generator(question, max_length=100, num_return_sequences=1, temperature=1.0)[0]['generated_text']
     return response  # Return the generated response
 
 def speak_text(text):
