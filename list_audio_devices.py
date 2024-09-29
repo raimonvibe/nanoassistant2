@@ -1,9 +1,9 @@
-import sounddevice as sd
+import sounddevice
 
 def list_audio_devices():
-    devices = sd.query_devices()
-    for i, device in enumerate(devices):
-        print(f"Device {i}: {device['name']}")
+    devices = sounddevice.query_devices()
+    for item, device in enumerate(devices):
+        print(f"Device {item}: {device['name']}")
 
 if __name__ == "__main__":
     list_audio_devices()
