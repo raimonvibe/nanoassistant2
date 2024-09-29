@@ -5,26 +5,26 @@
 Inspired by: [NanoAssistant by reese3222](https://github.com/reese3222/nanoassistant)
 
 ## ***What's NanoAssistant2?***
-NanoAssistant2 is a voice assistant project that uses **GPT-2** for its brains, meaning you’ll get some hilariously offbeat responses that are guaranteed to make you smile. We’ve also thrown in **Whisper** for voice input/output, making it feel like you’re talking to your AI buddy IRL.
+NanoAssistant2 is a voice assistant project that uses **GPT-2** for generating responses, meaning you’ll get some hilariously offbeat answers that are guaranteed to make you smile. We use the **Hugging Face pipeline** to power GPT-2, and the project supports **voice input/output** using `speech_recognition` and `pyttsx3`, making it feel like you’re chatting with a real AI buddy!
 
 ## **How to Get Started**
 1. **Clone the repo:** `git clone https://github.com/raimonvibe/nanoassistant2.git`
-2. **Install all the good stuff:** `pip install -r requirements.txt`
-3. **Run the magic:** `python nanoassistant2.py`
+2. **Install all the dependencies:** `pip install -r requirements.txt`
+3. **Run the script:** `python nanoassistant2.py`
 
 ## ***Why It's Fun to Use***
-- 😆 **Funny conversations**: GPT-2 can sometimes be a bit wild, so be ready for unexpected, entertaining answers.
-- 🎤 **Voice input/output**: It’s not just text – you’ll be chatting with this AI like you would with a friend!
-- ✨ **Super customizable**: Tweak the code to make it more or less weird – your choice!
+- 😆 **Funny conversations**: GPT-2 can sometimes give unexpected and hilarious responses, making each interaction unique.
+- 🎤 **Voice input/output**: Speak to NanoAssistant2 and have it speak back – no need for boring text chats!
+- ✨ **Super customizable**: You can tweak the code to adjust the responses, speed, and style to fit your preferences.
 
 ## **Tips for Best Experience**
 - **Use clear and simple prompts** to get the funniest responses. The more straightforward your question, the more creative GPT-2 gets!
-- Want more randomness? **Increase the "temperature" parameter** in the code. This will make the responses even more unpredictable! 🔥
-- If it’s too slow, consider **downscaling the model** or running it on a faster machine – GPT-2 can be a bit demanding.
+- Want more randomness? **Adjust the "temperature" parameter** in the `generate_response` function. Increasing this value will make responses more unpredictable! 🔥
+- If the responses are slow, consider **running the project on a machine with more processing power** or using a smaller model.
 
 ## ***Troubleshooting***
-- **Audio Issues?** Make sure your microphone is properly configured and working.
-- **Slow responses?** Try running on a machine with more RAM, or reduce the model size.
+- **Audio Issues?** Ensure your microphone is connected and recognized by your system. You may need to check your system’s audio settings or permissions.
+- **Slow responses?** Try reducing the `max_length` parameter in the `generate_response` function or running it on a more capable machine.
 
 ## **Have Fun!** 🎉
-This project is all about having a good time. Don’t take it too seriously – that’s what makes NanoAssistant2 so unique!
+This project is all about having a good time and enjoying the quirky interactions with your AI buddy. Don’t take it too seriously – that’s what makes NanoAssistant2 so special!
