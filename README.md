@@ -8,7 +8,7 @@ Inspired by: [NanoAssistant by reese3222](https://github.com/reese3222/nanoassis
 NanoAssistant2 is a voice assistant project that uses **GPT-2** for its brains, meaning you’ll get some hilariously offbeat responses that are guaranteed to make you smile. We’ve also thrown in **Whisper** for voice input/output, making it feel like you’re talking to your AI buddy IRL.
 
 ## **How to Get Started**
-1. **Clone the repo:** `git clone [https://github.com/reese3222/nanoassistant.git](https://github.com/raimonvibe/nanoassistant2.git)`
+1. **Clone the repo:** `git clone https://github.com/raimonvibe/nanoassistant2.git`
 2. **Install all the good stuff:** `pip install -r requirements.txt`
 3. **Run the magic:** `python nanoassistant2.py`
 
