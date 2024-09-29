@@ -1,6 +1,7 @@
-numpy
+numpy<2
 SpeechRecognition
 pyttsx3
 transformers
 torch
 PyAudio
+setuptools
